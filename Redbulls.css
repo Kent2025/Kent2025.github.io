@@ -26,6 +26,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: .3em;
   white-space:nowrap;
+  inline: default;
 }
 
 span {
