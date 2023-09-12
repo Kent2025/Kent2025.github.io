@@ -5,7 +5,9 @@ h1{
   font-weight: bold;
 }
 
-
+body{
+  background-color: black;
+}
 
 img {  
   padding: 10px;
