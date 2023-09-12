@@ -1,11 +1,8 @@
 
 
-img {  
-  margin: 20px;
-  border: 3px solid red;
-  padding: 3px;
- position: absolute;
-} 
+background-image{
+  url('https://i.gifer.com/L7qW.gif')
+}
 
 body {
   background-color: #111;
