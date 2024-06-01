@@ -1,0 +1,133 @@
+body {
+  font-family: 'Edu Tas Beginner';
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(255, 255, 255); 
+  color: rgb(0, 0, 0); 
+  background-image: url('roseleaves.png');
+  background-size: 30% 30%;
+}
+
+
+nav {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  padding: 1em 0;
+  position: absolute;
+  top: 0;
+  border: 5px solid red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav a {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: static;
+  float: left;
+}
+.main-content h1 {
+  font-size: 30px;
+
+}
+
+.oben{
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: static;
+
+  border: 2px solid red;
+  background-color: rgb(0, 0, 0);
+  margin-top: 90px;
+  margin-left: 10px;
+  float: left;
+  color: white;
+  
+}
+
+.kurd img{
+  height: 30px;
+  width: 40px;
+}
+
+
+.second {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  border: 2px solid rgba(255, 0, 0, 0);
+  background-color: rgba(245, 245, 220, 0);
+}
+
+.third {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
+.heart {
+  width: 45px;
+  height: 40px;
+  position: relative;
+  display: inline-block;
+}
+
+.heart::before,
+.heart::after {
+  content: "B";
+  text-align: center;
+  width: 50px;
+  height: 85px;
+  background: red;
+  border-radius: 100px 100px 0 0;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+.heart::after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+
+@keyframes heartbeat {
+  0%, 20%, 40%, 60%, 100% {
+      transform: scale(1);
+  }
+  10%, 30%, 50% {
+      transform: scale(1.2);
+  }
+}
+
+.heart {
+  animation: heartbeat 3s infinite;
+}
