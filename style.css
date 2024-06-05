@@ -46,6 +46,25 @@ nav a {
 
 }
 
+.box {
+  margin-top: 200px;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c01a1ac7;
+  color: white;
+  font-size: 1.2em;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+
 .oben{
   flex-grow: 1;
   display: flex;
