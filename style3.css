@@ -3,10 +3,15 @@ body {
     margin: 0;
     padding: 0px;
     height: 100vh;
-    background-color: rgb(255, 255, 255); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0); 
     color: rgb(0, 0, 0); 
-    background-image: url('roseleaves.png');
-    background-size: 30% 30%;
+    background-image: url('starsgif.gif');
+    background-size: 100%;
+    
 }
 
 nav {
@@ -26,4 +31,141 @@ nav {
     color: rgb(255, 0, 0);
     text-decoration: none;
     font-size: 1.2em;
+  }
+
+  .mid{
+    font-family: 'Quicksand';
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: static;
+    border: 2px solid rgba(255, 0, 0, 0.404);
+    background-color: rgba(228, 117, 213, 0.692);
+    margin-top: 90px;
+    margin-left: 10px;
+    float: left;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+
+    border-top-left-radius: 10%;
+	  border-top-right-radius: 10%;
+	  border-bottom-left-radius: 10%;
+	  border-bottom-right-radius: 10%;
+  }
+
+  .bo {
+    width: 1000px; 
+    height: 700px; 
+    border-radius:20%; 
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    
+  }
+
+  h5{
+    font-size: 50px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    color:rgb(255, 251, 0)
+  }
+
+  .boimg-1 {
+    background: url('stars.webp'); 
+    border:1px solid lavender; 
+    background-size: 1800px;
+    width: 700px;
+    height: 800px;
+    margin-top: 60px;
+    
+    
+    
+  }
+
+  
+   
+
+  .botext { 
+    text-align: center; 
+    
+  }
+  
+
+  .second {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    border: 2px solid rgba(255, 0, 0, 0);
+    background-color: rgba(245, 245, 220, 0);
+  }
+
+  .heart {
+    width: 45px;
+    height: 40px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .heart::before,
+  .heart::after {
+    content: "B";
+    text-align: center;
+    width: 50px;
+    height: 85px;
+    background: red;
+    border-radius: 100px 100px 0 0;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+  
+  .heart::after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
+  
+  @keyframes heartbeat {
+    0%, 20%, 40%, 60%, 100% {
+        transform: scale(1);
+    }
+    10%, 30%, 50% {
+        transform: scale(1.2);
+    }
+  }
+  
+  .heart {
+    animation: heartbeat 3s infinite;
+  }
+
+
+
+  .back-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    background-color: #aeffb1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+  }
+  .back-button:hover {
+    background-color: #45a049;
   }
