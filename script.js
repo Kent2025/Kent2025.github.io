@@ -11,15 +11,15 @@ document.addEventListener("DOMContentLoaded", function() {
         "Meine Liebe zu dir unbeschreiblich",
         "Du machst mich verrückt",
         "ich brauche keine Sonne, wenn du bei mir bist",
-        "Wer sucht, findet nicht, aber wer nicht sucht, wird gefunden.",
+        "Wer sucht, findet nicht, aber wer nicht sucht, wird gefunden",
         "Ich vermisse dich so sehr",
         "Ich habe die Liebe erfahren und verstehe jetzt den Sinn des Lebens",
-        "Für die Welt bist du irgendjemand, aber für mich bist du die Welt.",
+        "Für die Welt bist du irgendjemand, aber für mich bist du die Welt",
         "Mit dir gehe ich überall hin, lass mich nur nie wieder los",
         "Habe dich in der Mitte meines Herzens graviert",
         "Du + Ich = Wir♥️",
         "Entfernung kann nur Körper trennen, aber niemals unsere Herzen",
-        "An dich denken ist schön, doch noch schöner ist dich zu hören. "
+        "An dich denken ist schön, doch noch schöner ist dich zu hören"
     ];
 
     const quoteBox = document.getElementById("quoteBox");
