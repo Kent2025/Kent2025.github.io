@@ -47,13 +47,14 @@ nav a {
 }
 
 .box {
+  font-family: 'Quicksand';
   margin-top: 200px;
-  width: 200px;
-  height: 100px;
+  width: 300px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #c01a1ac7;
+  background-color: #c01a1ae3;
   color: white;
   font-size: 1.2em;
   border-radius: 10px;
@@ -74,7 +75,7 @@ nav a {
 
   border: 2px solid red;
   background-color: rgb(0, 0, 0);
-  margin-top: 90px;
+  margin-top: 30px;
   margin-left: 10px;
   float: left;
   color: white;
@@ -107,46 +108,27 @@ nav a {
   z-index: 1;
 }
 
-
-
-
-.heart {
-  width: 45px;
-  height: 40px;
-  position: relative;
-  display: inline-block;
-}
-
-.heart::before,
-.heart::after {
-  content: "B";
-  text-align: center;
-  width: 50px;
-  height: 85px;
-  background: red;
-  border-radius: 100px 100px 0 0;
-  position: absolute;
-  top: 0;
-  left: 50px;
-  transform: rotate(-45deg);
-  transform-origin: 0 100%;
-}
-
-.heart::after {
-  left: 0;
-  transform: rotate(45deg);
-  transform-origin: 100% 100%;
-}
-
-@keyframes heartbeat {
-  0%, 20%, 40%, 60%, 100% {
-      transform: scale(1);
+.text{
+    font-family: 'Edu Tas Beginner';
+    margin-top: 40px;
+    margin-bottom: 0px;
+    width: auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    font-weight: bold;
+    font-size: x-large;
   }
-  10%, 30%, 50% {
-      transform: scale(1.2);
-  }
-}
 
-.heart {
-  animation: heartbeat 3s infinite;
-}
+
+
+
+
