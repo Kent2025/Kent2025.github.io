@@ -48,3 +48,26 @@ nav {
     font-weight: bold;
     font-size: x-large;
   }
+
+  .back-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    background-color: #aeffb1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+  }
+  .back-button:hover {
+    background-color: #45a049;
+  }
