@@ -10,10 +10,10 @@ body {
     background-color: rgb(0, 0, 0); 
     color: rgb(0, 0, 0); 
     background-image: url('starsgif.gif');
-    background-size: 100%;
+    background-size: 150%;
     
 }
-
+/*
 nav {
     width: 100%;
     background-color: #ffffff;
@@ -32,7 +32,7 @@ nav {
     text-decoration: none;
     font-size: 1.2em;
   }
-
+*/
   .mid{
     font-family: 'Quicksand';
     flex-grow: 1;
@@ -46,7 +46,8 @@ nav {
     margin-left: 10px;
     float: left;
     color: rgb(0, 0, 0);
-    font-size: 30px;
+    /*font-size: 30px;*/
+    font-size: 5%;
     font-weight: bold;
 
     border-top-left-radius: 10%;
@@ -56,17 +57,21 @@ nav {
   }
 
   .bo {
-    width: 1000px; 
-    height: 700px; 
+    /*width: 1000px; 
+    height: 700px; */
+    width: 95%;
+    height: 80%;
     border-radius:20%; 
-    font-size: 30px;
+    /*font-size: 30px;*/
+    font-size: 1.2em;
     font-weight: bolder;
     color: rgb(255, 255, 255);
+    margin-top: 300px;
     
   }
 
   h5{
-    font-size: 50px;
+    font-size: 1.5em;
     margin-top: 2px;
     margin-bottom: 8px;
     color:rgb(255, 251, 0)
@@ -76,9 +81,11 @@ nav {
     background: url('stars.webp'); 
     border:1px solid lavender; 
     background-size: 1800px;
-    width: 700px;
-    height: 800px;
-    margin-top: 200px;
+    /*width: 700px;
+    height: 800px;*/
+    width: 95%;
+    height: 80%;
+    margin-top: 60px;
     
     
     
@@ -103,7 +110,7 @@ nav {
     border: 2px solid rgba(255, 0, 0, 0);
     background-color: rgba(245, 245, 220, 0);
   }
-
+/*
   .heart {
     width: 45px;
     height: 40px;
@@ -144,7 +151,7 @@ nav {
   .heart {
     animation: heartbeat 3s infinite;
   }
-
+*/
 
 
   .back-button {
@@ -157,8 +164,8 @@ nav {
     margin-left: auto;
     margin-right: auto;
     font-size: 1.2em;
-    color: rgb(0, 0, 0);
-    background-color: #aeffb1;
+    color: rgb(255, 255, 255);
+    background-color: #222b38b7;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -167,5 +174,10 @@ nav {
     font-weight: bold;
   }
   .back-button:hover {
-    background-color: #45a049;
+    background-color: #f3ff4b;
+  }
+
+
+  .herzen{
+    color: rgb(251, 255, 0);
   }
